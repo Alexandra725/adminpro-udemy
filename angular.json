@@ -120,6 +120,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "udemy"
+    }
+  },
+  "defaultProject": "udemy",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "css"
+    }
+  }
 }
